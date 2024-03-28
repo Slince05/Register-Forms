@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <form>
+        <label for="">Name</label>
+        <input name="name" id="name" type="text" placeholder="Eg: Blah Blah" required><br />
+
+        <label for="">Location</label>
+        <input name="location" id="location" type="text" value="Myanmar" readonly><br />
+
+        <label for="">Age</label>
+        <input max="50" min="18" name="age" type="number">
+        <input type="hidden"> <br />
+
+        <label for="gmail">Gmail</label>
+        <input maxlength="3" min="1" name="hello" id="gmail" type="text" placeholder="Example@gmail.com" required><br />
+
+        <label for="file">File</label>
+        <input type="file" id="file" name="image"><br />
+
+        <textarea name="message" id="" cols="30" rows="10"></textarea><br />
+
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+        <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label><br />
+
+        <input type="checkbox" name="cola" value="cola" id="cola"><label for="cola">Cola</label>
+        <input type="checkbox" name="burger" value="burger" id="burger"><label for="burger">Burger</label>
+        <input type="checkbox" name="chip" value="chip" id="chip"><label for="chip">Chip</label><br />
+
+        <label for="township">Township </label><br />
+        <select name="township" id="township" multiple>
+            <option value="Dagon Seikkan">Dagon Seikkan</option>
+            <option value="Tarkayta">Tarkayka</option>
+            <option value="South-Dagon">South-Dagon</option>
+        </select>
+
+        <button type="submit">Send</button>
+    </form>
+
+</body>
+
+</html>
