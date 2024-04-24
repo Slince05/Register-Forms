@@ -1,0 +1,21 @@
+header {
+    background: #171616;
+    font-size: 27px;
+    padding: 20px 0;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header a {
+    color: #fff;
+}
+
+nav {
+    width: 1200px;
+    background: rgba(235, 0, 0, 25);
+    margin: 0 auto;
+}
